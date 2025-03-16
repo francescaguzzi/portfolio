@@ -5,6 +5,8 @@ import Projects from './sections/Projects.jsx';
 import Experiences from './sections/Experiences.jsx';
 import Contact from './sections/Contact.jsx';
 
+import profileImg from "./images/profile.jpg"
+
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('about');
@@ -48,7 +50,7 @@ const App = () => {
       </nav>
 
       <header className="mb-16 text-center fade-in">
-        <img src="src/images/profile.jpg" alt="Profile" className="w-40 h-40 rounded-full mx-auto mb-6 object-cover" />
+        <img src={profileImg} alt="Profile" className="w-40 h-40 rounded-full mx-auto mb-6 object-cover" />
         <h1 className="text-4xl font-bold mb-4">Francesca Guzzi</h1>
         <p className="text-2xl text-neutral-600">Game developer & Computer Engineering student</p>
       </header>

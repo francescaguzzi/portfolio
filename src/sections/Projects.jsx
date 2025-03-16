@@ -3,46 +3,58 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { FaGithub, FaItchIo, FaGlobe } from 'react-icons/fa';
 
-const projects = [
+// Import immagini
+import blinkeye from '../images/blinkeye.gif';
 
+import trashbits3 from '../images/trashbits3.png';
+import trashbits4 from '../images/trashbits4.png';
+import trashbits2 from '../images/trashbits2.gif';
+
+import handmancers1 from '../images/handmancers1.png';
+import handmancers2 from '../images/handmancers2.gif';
+import handmancers4 from '../images/handmancers4.png';
+import handmancers3 from '../images/handmancers3.gif';
+import handmancers5 from '../images/handmancers5.png';
+
+import pond1 from '../images/pond1.png';
+import pond2 from '../images/pond2.gif';
+
+const projects = [
   {
     title: "In the blink of an eye",
     year: "2025",
     company: "University Project demo",
-    description: "This prototype was developed for an university exam, focusing on the development of an alternative and more inclusive input method for games using CLAHE (Contrast Limited Adaptive Histogram Equalization) and CUDA in order to make the tool functional even in poor lighting contexts. The prototype and the tool are written in Python, Pygame and CUDA.",
-    images: ["src/images/blinkeye.gif"],
+    description: "This prototype was developed for an university exam...",
+    images: [blinkeye],
     github: "https://github.com/francescaguzzi/progettosistemidigitali"
   },
-
   {
     title: "Trashbits",
-    year : "2024",
+    year: "2024",
     company: "Solo Project",
-    description: "A small multiplayer browser game where robots try to defeat a trash monster. Built in Javascript, Node.js and Socket.io, this prototype was necessary for my bachelor's thesis to observe and compare the performances of the new WebTransport protocol with the traditional WebSocket one.",
-    images: ["src/images/trashbits3.png", "src/images/trashbits4.png", "src/images/trashbits2.gif"],
+    description: "A small multiplayer browser game where robots try to defeat a trash monster...",
+    images: [trashbits3, trashbits4, trashbits2],
     github: "https://github.com/francescaguzzi/trashbits"
   },
-
   {
     title: "Handmancers",
     year: "2023",
     company: "Indici Opponibili Soc. Coop.",
-    description: "During my university internship I contributed in the development of Handmancers on minor features, with a specific focus on analytics, privacy treatment and player's feedback. I contributed to the creation of a web-based community platform for game feedback, which involved developing the platform's architecture, designing its interface, and implementing user registration and feedback mechanisms.",
-    images: ["src/images/handmancers1.png", "src/images/handmancers2.gif", "src/images/handmancers4.png", "src/images/handmancers3.gif", "src/images/handmancers5.png"],
+    description: "During my university internship I contributed...",
+    images: [handmancers1, handmancers2, handmancers4, handmancers3, handmancers5],
     website: "https://www.handmancers.com/"
   },
-
   {
     title: "Pond",
     year: "2023",
     company: "Solo Project",
-    description: "This game was developed as a first approach to Unity development during my university internship. I had to develop the classic Pong game, but I wanted to give some kind of personal touch to it so I took advantage of the similarity between the words 'pong' and 'pond', resulting in two koi carps playing with a pebble in a lily pond.",
-    images: ["src/images/pond1.png", "src/images/pond2.gif"],
+    description: "This game was developed as a first approach to Unity...",
+    images: [pond1, pond2],
     github: "https://github.com/francescaguzzi/pond",
     itch: "https://hydrangeax.itch.io/pond"
   }
-
 ];
+
 
 export default function Projects() {
   return (
