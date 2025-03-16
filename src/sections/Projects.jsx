@@ -24,7 +24,7 @@ const projects = [
     title: "In the blink of an eye",
     year: "2025",
     company: "University Project demo",
-    description: "This prototype was developed for an university exam...",
+    description: "This prototype was developed for an university exam, focusing on the development of an alternative and more inclusive input method for games using CLAHE (Contrast Limited Adaptive Histogram Equalization) and CUDA in order to make the tool functional even in poor lighting contexts. The prototype and the tool are written in Python, Pygame and CUDA.",
     images: [blinkeye],
     github: "https://github.com/francescaguzzi/progettosistemidigitali"
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Trashbits",
     year: "2024",
     company: "Solo Project",
-    description: "A small multiplayer browser game where robots try to defeat a trash monster...",
+    description: "A small multiplayer browser game where robots try to defeat a trash monster. Built in Javascript, Node.js and Socket.io, this prototype was necessary for my bachelor's thesis to observe and compare the performances of the new WebTransport protocol with the traditional WebSocket one.",
     images: [trashbits3, trashbits4, trashbits2],
     github: "https://github.com/francescaguzzi/trashbits"
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "Handmancers",
     year: "2023",
     company: "Indici Opponibili Soc. Coop.",
-    description: "During my university internship I contributed...",
+    description: "During my university internship I contributed in the development of Handmancers on minor features, with a specific focus on analytics, privacy treatment and player's feedback. I contributed to the creation of a web-based community platform for game feedback, which involved developing the platform's architecture, designing its interface, and implementing user registration and feedback mechanisms.",
     images: [handmancers1, handmancers2, handmancers4, handmancers3, handmancers5],
     website: "https://www.handmancers.com/"
   },
@@ -48,7 +48,7 @@ const projects = [
     title: "Pond",
     year: "2023",
     company: "Solo Project",
-    description: "This game was developed as a first approach to Unity...",
+    description: "This game was developed as a first approach to Unity development during my university internship. I had to develop the classic Pong game, but I wanted to give some kind of personal touch to it so I took advantage of the similarity between the words 'pong' and 'pond', resulting in two koi carps playing with a pebble in a lily pond.",
     images: [pond1, pond2],
     github: "https://github.com/francescaguzzi/pond",
     itch: "https://hydrangeax.itch.io/pond"
