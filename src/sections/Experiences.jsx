@@ -22,6 +22,17 @@ export default function Experiences() {
       <h2 className="text-4xl font-semibold mb-4 fade-in">Experience</h2>
 
       <Experience
+        title="Internship in Game Design and Game Development"
+        place="Indici Opponibili Soc. Coop."
+        yearRange="Mar 2023 – Jun 2023"
+        bullets={[
+          "Collaborated with a team of developers to design and build games using Unity.",
+          "Contributed to the creation of game mechanics, user interfaces, and audiovisual elements.",
+          "Gained experience in project management, software development, and team collaboration."
+        ]}
+      />
+
+      <Experience
         title="MSc in Computer Engineering"
         place="University of Bologna"
         yearRange="Sep 2024 – Present"
@@ -34,17 +45,7 @@ export default function Experiences() {
         yearRange="Sep 2020 – Oct 2024"
         description="Undergraduate studies with an emphasis on software development, computer architecture, and game-oriented applications. Final thesis on performance evaluation of real-time multiplayer games using WebTransport and WebSocket protocols."
       />
-
-      <Experience
-        title="Internship in Game Development"
-        place="Indici Opponibili Soc. Coop."
-        yearRange="Mar 2023 – Jun 2023"
-        bullets={[
-          "Collaborated with a team of developers to design and develop games using Unity.",
-          "Contributed to the creation of game mechanics, user interfaces, and audiovisual elements.",
-          "Gained experience in project management, software development, and team collaboration."
-        ]}
-      />
+      
     </section>
   );
 }

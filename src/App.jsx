@@ -44,9 +44,9 @@ const App = () => {
       
       <nav className="fixed top-0 left-0 right-0 backdrop-blur bg-white/80 z-50 border-b border-neutral-300 py-4 px-4 flex justify-center gap-6 text-lg">
         <a href="#about" className={`transition ${activeSection === 'about' ? 'text-black font-semibold border-b-2 border-black pb-1' : 'text-neutral-500 hover:text-black'}`}>About</a>
+        <a href="#contact" className={`transition ${activeSection === 'contact' ? 'text-black font-semibold border-b-2 border-black pb-1' : 'text-neutral-500 hover:text-black'}`}>Contact</a>
         <a href="#projects" className={`transition ${activeSection === 'projects' ? 'text-black font-semibold border-b-2 border-black pb-1' : 'text-neutral-500 hover:text-black'}`}>Projects</a>
         <a href="#experience" className={`transition ${activeSection === 'experience' ? 'text-black font-semibold border-b-2 border-black pb-1' : 'text-neutral-500 hover:text-black'}`}>Experience</a>
-        <a href="#contact" className={`transition ${activeSection === 'contact' ? 'text-black font-semibold border-b-2 border-black pb-1' : 'text-neutral-500 hover:text-black'}`}>Contact</a>
       </nav>
 
       <header className="mb-16 text-center fade-in">
@@ -57,11 +57,12 @@ const App = () => {
 
       <About />
 
+      <Contact />
+
       <Projects />
 
       <Experiences />
 
-      <Contact />
 
       <footer className="text-center text-sm text-neutral-500 py-8 fade-in">
       © {new Date().getFullYear()} Francesca Guzzi

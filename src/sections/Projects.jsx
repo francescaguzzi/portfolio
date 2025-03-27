@@ -24,7 +24,7 @@ const projects = [
     title: "In the blink of an eye",
     year: "2025",
     company: "University Project demo",
-    description: "This prototype was developed for an university exam, focusing on the development of an alternative and more inclusive input method for games using CLAHE (Contrast Limited Adaptive Histogram Equalization) and CUDA in order to make the tool functional even in poor lighting contexts. The prototype and the tool are written in Python, Pygame and CUDA.",
+    description: "This prototype was developed in a small team for an university exam, focusing on the development of an alternative and more inclusive input method for games using facial recognition with CLAHE (Contrast Limited Adaptive Histogram Equalization) and CUDA in order to make the tool functional even in poor lighting contexts. The prototype and the tool are written in Python, Pygame and CUDA, using dlib and OpenCV for facial recognition.",
     images: [blinkeye],
     github: "https://github.com/francescaguzzi/progettosistemidigitali"
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "Handmancers",
     year: "2023",
     company: "Indici Opponibili Soc. Coop.",
-    description: "During my university internship I contributed in the development of Handmancers on minor features, with a specific focus on analytics, privacy treatment and player's feedback. I contributed to the creation of a web-based community platform for game feedback, which involved developing the platform's architecture, designing its interface, and implementing user registration and feedback mechanisms.",
+    description: "During my university internship I contributed in the development of Handmancers on minor features, with a specific focus on analytics, privacy treatment and player's feedback. I contributed to the creation of a web-based community platform for game feedback, which involved developing the platform's architecture, designing its interface, and implementing user registration and feedback mechanisms. The project was entirely developed using Figma and Unity.",
     images: [handmancers1, handmancers2, handmancers4, handmancers3, handmancers5],
     website: "https://www.handmancers.com/"
   },
