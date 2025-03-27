@@ -25,7 +25,6 @@ export default function About() {
           For the design side of my projects, I enjoy creating assets with tools like <strong>Procreate</strong>, <strong>Aseprite</strong>, and <strong>Figma</strong>, which allow me to bring a unique visual style to my games and prototypes.
         </p>
 
-        <hr className="mt-8 border-t border-neutral-300" />
     </section>
   );
 }

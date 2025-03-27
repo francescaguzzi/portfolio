@@ -4,7 +4,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaItchIo } from 'react-icons/fa';
 export default function Contact() {
   return (
     <section id="contact" className="mb-16 fade-in">
-      <h2 className="text-4xl font-semibold mb-4">Contact</h2>
+      
       <p className="text-neutral-700 text-xl mb-4">
         Feel free to reach out or connect with me through any of the platforms below:
       </p>
